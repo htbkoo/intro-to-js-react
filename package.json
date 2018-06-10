@@ -12,6 +12,6 @@
     "sinon": "^5.1.1"
   },
   "scripts": {
-    "test": "mocha src/**/*.test.{js,jsx}"
+    "test": "mocha src/**/*.test.js"
   }
 }
