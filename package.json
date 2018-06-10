@@ -1,0 +1,9 @@
+{
+  "name": "hey-intro-to-js-react",
+  "version": "0.1.0",
+  "description": "introduction to JavaScript and React",
+  "main": "index.js",
+  "repository": "https://github.com/htbkoo/intro-to-js-react",
+  "author": "htbkoo",
+  "license": "UNLICENSED"
+}
