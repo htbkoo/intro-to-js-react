@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/htbkoo/intro-to-js-react",
   "author": "htbkoo",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^5.1.1"
+  }
 }
