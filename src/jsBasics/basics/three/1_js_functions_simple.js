@@ -8,10 +8,10 @@ var functionCanAlsoBeDefinedLikeThis = function(){
     // returns undefined if no return statement
 };
 
-let returnValue = functionDefinedInThisWay(1); // functions are triggered by added () after the function name
+var returnValue = functionDefinedInThisWay(1); // functions are triggered by added () after the function name
 console.log(returnValue);
 console.log(functionCanAlsoBeDefinedLikeThis());
 
-let functionIsAlsoAnObject = functionDefinedInThisWay;
+var functionIsAlsoAnObject = functionDefinedInThisWay;
 console.log(functionIsAlsoAnObject(3));
 console.log(typeof functionIsAlsoAnObject);

@@ -28,4 +28,13 @@
 2. Covers the assertion framework (chai.js)
     1. There are multiple styles supported by chai.js (e.g. BDD style, TDD style)
         1. **In our projects, we picked the "expect" style**
-        2. Visit the [chai.js](http://www.chaijs.com/api/bdd/) documentations for more details 
+        2. Visit the [chai.js](http://www.chaijs.com/api/bdd/) documentations for more details 2. Covers the assertion framework (chai.js)
+3. Covers the mocking framework (sinon.js)
+    1. In short
+        1. ```spy``` is used for asserting if invocation has happened 
+        2. ```stub``` is used for returning mocked return value 
+        3. ```mock``` can do both but [it is recommended to use the above if possible](http://sinonjs.org/releases/v5.1.0/mocks/)
+        4. There are other functions like ```sinon.createStubInstance``` and sand boxed environment - visit the [sinon documentation for more details](http://sinonjs.org/releases/v5.1.0/)  
+    2. From Sinon v5, there is a new function ```fake``` introduced which ["simplifies and merges concepts from spies and stubs"](http://sinonjs.org/releases/v5.1.0/fakes/) 
+        1. I have not used this yet so I could not comment too much on this.
+        2. **And in our projects, we would not be upgrading to the edge version soon anyway so :)**
