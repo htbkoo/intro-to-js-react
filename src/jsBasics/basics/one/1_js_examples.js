@@ -1,4 +1,4 @@
-// This file can be run by "node js_examples.js"
+// This file can be run by "node 1_js_examples.js"
 
 var variableName = "variable value";
 
