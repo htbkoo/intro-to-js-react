@@ -38,3 +38,5 @@ console.log(u);
 
 var n = null; // Rule of thumb: I seldom use "null" and stick with "undefined" most of the time
 console.log(n);
+
+throw new Error("someError");
