@@ -1,4 +1,4 @@
-import chai from "chai";
+const chai = require("chai");
 
 describe("Some JS basic exercises", function () {
     // These tests does not pass, try fixing them
@@ -17,9 +17,7 @@ describe("Some JS basic exercises", function () {
         it("should assert arrow function", function () {
             // given
             // when
-            let fn = () =
-        >
-            0;
+            let fn = () => 0;
 
             // then
             // TODO: fix this
