@@ -2,6 +2,6 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="file://$PROJECT_DIR$" libraries="{Node.js Core}" />
-    <file url="PROJECT" libraries="{mocha-DefinitelyTyped, sinon-DefinitelyTyped}" />
+    <file url="PROJECT" libraries="{chai-DefinitelyTyped, mocha-DefinitelyTyped, sinon-DefinitelyTyped}" />
   </component>
 </project>
