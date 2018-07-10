@@ -35,6 +35,18 @@ describe("Some JS basic exercises", function () {
             // TODO: fix this
             chai.expect(array[replaceThis]).to.equal(1);
         });
+
+        it("should append to array", function () {
+            // given
+            var array = [0, 1, 2, 3];
+
+            // when
+            // TODO: fix this
+            array.push(replaceThis);
+
+            // then
+            chai.expect(array).to.deep.equal([0, 1, 2, 3, 4]);
+        });
     });
 
     describe("object", function () {
