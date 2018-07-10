@@ -47,6 +47,19 @@ describe("Some JS basic exercises", function () {
             // then
             chai.expect(array).to.deep.equal([0, 1, 2, 3, 4]);
         });
+
+        it("should copy array", function () {
+            // given
+            var oldArray = [0, 1, 2, 3];
+
+            // when
+            // TODO: fix this
+            var array = oldArray.slice(replaceThis, replaceThis);
+
+            // then
+            chai.expect(oldArray).to.deep.equal([0, 1, 2, 3]);
+            chai.expect(array).to.deep.equal([1, 2]);
+        });
     });
 
     describe("object", function () {
