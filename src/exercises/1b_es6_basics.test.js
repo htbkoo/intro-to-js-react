@@ -56,4 +56,22 @@ describe("Some JS basic exercises", function () {
             chai.expect(b).to.equal(replaceThis);
         });
     });
+
+    describe("class", function () {
+        it("should get new instance from class", function () {
+            // given
+            class myClass {
+                getNum() {
+                    return 0
+                };
+            }
+
+            // when
+            // TODO: fix this
+            let instance;
+
+            // then
+            chai.expect(instance.getNum()).to.equal(0);
+        });
+    });
 });
