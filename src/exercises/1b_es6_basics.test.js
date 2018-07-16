@@ -1,7 +1,7 @@
 const chai = require("chai");
 
 describe("Some JS basic exercises", function () {
-    // These tests does not pass, try fixing them
+    // These tests do not pass, try fixing them
 
     describe("basic syntax", function () {
         it("should assert sum", function () {

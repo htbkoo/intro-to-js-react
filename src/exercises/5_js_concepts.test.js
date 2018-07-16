@@ -1,7 +1,7 @@
 var chai = require("chai");
 
 describe("JS concepts", function () {
-    // These tests does not pass, try fixing them
+    // These tests do not pass, try fixing them
     it("should get 0,1,2,3,4 from fn()", function () {
         // given
         var fn = [];

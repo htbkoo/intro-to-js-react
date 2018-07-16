@@ -1,7 +1,7 @@
 var chai = require("chai");
 
 describe("JS functions (basic)", function () {
-    // These tests does not pass, try fixing them
+    // These tests do not pass, try fixing them
 
     describe("basic syntax", function () {
         it("should get return value from function", function () {
