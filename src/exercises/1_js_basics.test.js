@@ -107,6 +107,19 @@ describe("Some JS basic exercises", function () {
             // then
             chai.expect(Object.keys(object).length).to.equal(0);
         });
+
+        it("should extract value from nested object", function () {
+            var object = {
+                innerObj: {
+                    key: "embeddedValue"
+                }
+            };
+
+            // then
+            // TODO: fix this
+            chai.expect(replaceThis).to.equal("embeddedValue");
+
+        });
     });
 
     describe("general programming challenges", function () {
