@@ -122,6 +122,21 @@ describe("Some JS basic exercises", function () {
         });
     });
 
+    describe("function", function () {
+        it("should call function", function () {
+            // given
+            function fn(){
+                return "someSecret";
+            }
+            // when
+            // TODO: fix this
+            var actual;
+
+            // then
+            chai.expect(actual).to.equal("someSecret");
+        });
+    });
+
     describe("general programming challenges", function () {
         it("should implement a tail recursive version of fibonacci", function () {
             // given
