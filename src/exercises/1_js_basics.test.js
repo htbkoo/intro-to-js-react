@@ -60,6 +60,19 @@ describe("Some JS basic exercises", function () {
             chai.expect(oldArray).to.deep.equal([0, 1, 2, 3]);
             chai.expect(array).to.deep.equal([1, 2]);
         });
+
+        it("should extract from array", function () {
+            // given
+            var oldArray = [1, 2, 3, 4, 5, 6, 7];
+
+            // when
+            // TODO: fix this
+            var array = oldArray.splice(replaceThis, replaceThis);
+
+            // then
+            chai.expect(array).to.deep.equal([3, 4, 5]);
+            chai.expect(oldArray).to.deep.equal([1, 2, 6, 7]);
+        });
     });
 
     describe("object", function () {
@@ -93,6 +106,22 @@ describe("Some JS basic exercises", function () {
 
             // then
             chai.expect(Object.keys(object).length).to.equal(0);
+        });
+    });
+
+    describe("general programming challenges", function () {
+        it("should implement a tail recursive version of fibonacci", function () {
+            // given
+            // TODO: implement this
+            function tail_recursive_fibonacci() {
+            }
+
+            // when
+            var n = 10;
+            var actual = tail_recursive_fibonacci(n);
+
+            // then
+            chai.expect(actual).to.equal(55);
         });
     });
 });
