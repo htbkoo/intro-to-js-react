@@ -33,10 +33,10 @@ describe("JS concepts", function () {
         };
 
         // when
-        var context = [1, 2, 3];
+        var context = ["someSecret", 2, 3];
 
         // then
         // TODO: fix this
-        chai.expect(replaceThis).to.equal(1);
+        chai.expect(replaceThis).to.equal("someSecret");
     });
 });
