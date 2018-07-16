@@ -25,4 +25,18 @@ describe("JS concepts", function () {
             chai.expect(fn[index]()).to.equal(expected);
         });
     });
+
+    it("seems that 'this' does not work", function () {
+        // given
+        var getHead = function () {
+            return this[0];
+        };
+
+        // when
+        var context = [1, 2, 3];
+
+        // then
+        // TODO: fix this
+        chai.expect(replaceThis).to.equal(1);
+    });
 });
