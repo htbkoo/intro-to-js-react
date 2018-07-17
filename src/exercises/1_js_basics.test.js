@@ -2,6 +2,7 @@ var chai = require("chai");
 
 describe("Some JS basic exercises", function () {
     // These tests do not pass, try fixing them
+    // Hint: There are "Hints" on top of the test cases which link to the corresponding MDN docs, take a look if needed!
 
     describe("basic syntax", function () {
         it("should assert sum", function () {
@@ -14,6 +15,7 @@ describe("Some JS basic exercises", function () {
             chai.expect(sum).to.equal(5);
         });
 
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Data_types
         it("should get the type", function () {
             // then
             // TODO: fix these
@@ -28,6 +30,7 @@ describe("Some JS basic exercises", function () {
     });
 
     describe("array", function () {
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
         it("should get the value from array", function () {
             var array = [0, 1, 2, 3];
 
@@ -48,6 +51,7 @@ describe("Some JS basic exercises", function () {
             chai.expect(array).to.deep.equal([0, 1, 2, 3, 4]);
         });
 
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
         it("should copy array", function () {
             // given
             var oldArray = [0, 1, 2, 3];
@@ -61,6 +65,7 @@ describe("Some JS basic exercises", function () {
             chai.expect(array).to.deep.equal([1, 2]);
         });
 
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
         it("should extract from array", function () {
             // given
             var oldArray = [1, 2, 3, 4, 5, 6, 7];
@@ -76,6 +81,7 @@ describe("Some JS basic exercises", function () {
     });
 
     describe("object", function () {
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
         it("should get the value from object", function () {
             var object = {
                 anotherKey: "not this",
@@ -97,6 +103,7 @@ describe("Some JS basic exercises", function () {
             chai.expect(object["key"]).to.equal("someValue");
         });
 
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Deleting_a_property_from_an_object
         it("should remove value from object", function () {
             var object = {
                 key: "should be removed"
