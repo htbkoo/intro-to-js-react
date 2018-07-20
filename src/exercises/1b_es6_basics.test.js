@@ -2,8 +2,11 @@ const chai = require("chai");
 
 describe("Some JS basic exercises", function () {
     // These tests do not pass, try fixing them
+    // Hint: There are "Hints" on top of the test cases which link to the corresponding MDN docs, take a look if needed!
 
     describe("basic syntax", function () {
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
         it("should assert sum", function () {
             // given
             // when
@@ -14,6 +17,7 @@ describe("Some JS basic exercises", function () {
             chai.expect(sum).to.equal(5);
         });
 
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
         it("should assert arrow function", function () {
             // given
             // when
@@ -25,6 +29,7 @@ describe("Some JS basic exercises", function () {
         });
     });
 
+    // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
     describe("array / object destructuring", function () {
         it("should destruct array", function () {
             // given
@@ -57,6 +62,7 @@ describe("Some JS basic exercises", function () {
         });
     });
 
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
     describe("class", function () {
         it("should get new instance from class", function () {
             // given
