@@ -44,4 +44,24 @@ describe("JS functions (more advanced concepts)", function () {
             chai.expect(myClass.publicValue).to.equal(replaceThis);
         });
     });
+
+    // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#Closure
+    describe("closure", function () {
+        it("should utilize closure in this simple case", function () {
+            // given
+            function getFn() {
+                var value = 10;
+                return function () {
+                    return value;
+                };
+            }
+
+            // when
+            var fn = getFn();
+
+            // then
+            // TODO: fix this
+            chai.expect(fn()).to.equal(replaceThis);
+        });
+    });
 });
