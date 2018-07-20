@@ -2,7 +2,9 @@ var chai = require("chai");
 
 describe("JS functions (basic)", function () {
     // These tests do not pass, try fixing them
+    // Hint: There are "Hints" on top of the test cases which link to the corresponding MDN docs, take a look if needed!
 
+    // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
     describe("basic syntax", function () {
         it("should get return value from function", function () {
             // given
@@ -48,6 +50,7 @@ describe("JS functions (basic)", function () {
             chai.expect(sum(1, 2)).to.equal(3);
         });
 
+        // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
         it("should utilize the parameters using the arguments variable", function () {
             // given
             // Do NOT change the signature of the function
